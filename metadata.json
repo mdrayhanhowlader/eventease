@@ -1,0 +1,5 @@
+{
+  "name": "EventEase",
+  "description": "A modern, AI-powered event booking platform frontend. This application showcases a responsive UI for browsing events, managing bookings, and creating new events with AI-generated descriptions.",
+  "requestFramePermissions": []
+}

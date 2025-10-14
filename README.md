@@ -42,27 +42,3 @@ You can log in and test the application using the following mock accounts. The p
 | **Organizer** | `bob@example.com`       | Can create and manage their own events. Has a "My Events" dashboard. |
 | **Admin**     | `charlie@example.com`   | Has access to the site-wide analytics dashboard.        |
 
-## 📁 Project Structure
-
-```
-.
-├── components/         # Reusable React components
-│   ├── ui/             # Basic UI elements (Button, Card, Input, etc.)
-│   ├── AnalyticsDashboard.tsx
-│   ├── BookingCard.tsx
-│   ├── Chatbot.tsx
-│   ├── EventCard.tsx
-│   ├── EventForm.tsx
-│   ├── Header.tsx
-│   └── ...and more
-├── hooks/              # Custom React hooks
-│   └── useEventData.ts   # Manages all mock data and state logic
-├── services/           # Services for external APIs
-│   └── geminiService.ts  # Handles all calls to the Gemini API
-├── types.ts            # TypeScript type definitions for the project
-├── App.tsx             # Main application component, handles routing and state
-├── index.html          # The main HTML file
-├── index.tsx           # The entry point of the React application
-└── README.md           # This file
-```
-# eventease
